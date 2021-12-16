@@ -1,0 +1,9 @@
+.slide-galeria {
+  position: relative;
+  top: -80px;
+  z-index: -1;
+}
+
+.slide-galeria img {
+  width: 100%;
+}

@@ -1,0 +1,208 @@
+.portfolio {
+  position: relative;
+  top: -80px;
+  background: #34424d;
+  color: #fff;
+}
+.portfolio-container {
+  max-width: 1200px;
+  padding: 120px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  position: relative;
+}
+
+.portfolio-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  grid-column: 1 / -1;
+}
+
+.portfolio-titulo {
+  font-size: 40px;
+}
+
+.portfolio-titulo::before {
+  content: "";
+  width: 20px;
+  height: 4px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: 20px;
+}
+.portfolio .subtitulo {
+  color: #000;
+  max-width: 5ch; /** Aumenta o numero de carateres na quebra**/
+}
+
+.subtitulo {
+  font-size: 70px;
+  word-break: normal;
+}
+
+.portfolio-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  max-width: 40ch;
+  color: #a3a3a3;
+}
+
+.portfolio-texto strong {
+  color: #fff;
+}
+
+.port-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.port {
+  flex: 1;
+  background: #000;
+  padding: 0px;
+  border-radius: 4px;
+  display: flex; /** Usado para dar o valor de margin botton do .prod-tipo **/
+  flex-direction: column; /** Usado para dar o valor de margin botton do .prod-tipo, senão não pega **/
+}
+
+.port img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.port-tipo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+
+  padding: 20px;
+}
+
+.port-nome {
+  flex: 1; /** O conteudo cresce o maximo que puder dentro do seu repositorio**/
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.port-nome::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: -2px;
+}
+
+.portfolio-extra h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.portfolio-extra h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn-orcamento {
+  color: #fff;
+  padding: 15px 30px;
+  background: #34424d;
+  border: solid 1px #fff;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 0.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.btn-orcamento:hover {
+  color: #67dd0a;
+  border: solid 1px #67dd0a;
+}
+
+@media (max-width: 800px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .portfolio .subtitulo {
+    color: #fff;
+  }
+
+  .portfolio-texto {
+    font-size: 1.125rem;
+  }
+
+  .portfolio-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+
+  .port-lista {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+
+  .port-lista {
+    grid-template-columns: 1fr;
+  }
+  .portfolio .subtitulo {
+    color: #fff;
+  }
+  .portfolio-titulo {
+    font-size: 2rem;
+  }
+  .portfolio-texto {
+    font-size: 1.125rem;
+  }
+
+  .portfolio-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  .btn-orcamento {
+    font-size: 15px;
+    padding: 15px 20px;
+    line-height: 0.5rem;
+    letter-spacing: 0.05rem;
+  }
+}

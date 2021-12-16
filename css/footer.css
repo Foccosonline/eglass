@@ -1,0 +1,97 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.container::after {
+  /** Utilizado para colocar o detalhe da imagem do lado esquerdo no footer**/
+  display: block;
+  content: "";
+  width: 130px;
+  height: 100px;
+  background: url("../img/detalhe.svg") no-repeat center;
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+}
+
+.footer-bg {
+  background: #000;
+  color: #fff;
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-subtitulo {
+  padding-top: 15px;
+  font-family: "fira sans";
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.footer-contato ul {
+  margin-bottom: 32px;
+}
+
+.footer-contato li:nth-child(even):after {
+  content: "";
+  display: block;
+  max-width: 360px;
+  height: 2px;
+  background: #111;
+  margin-top: 16px;
+}
+
+.footer li {
+  margin-bottom: 16px;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 32px;
+}
+
+.footer a {
+  color: #c6c6c6;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer-copy {
+  grid-column: 1/-1;
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .footer > img {
+    display: none;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .footer-copy {
+    margin-top: 0px;
+  }
+}

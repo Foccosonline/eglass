@@ -1,0 +1,139 @@
+.valores {
+  position: relative;
+  top: -80px;
+  background: #d9e0e6;
+  color: #34424d;
+}
+
+.valores-container {
+  max-width: 1200px;
+  padding: 120px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  position: relative;
+}
+
+.valores-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  grid-column: 1 / -1;
+}
+
+.valores-titulo {
+  font-size: 40px;
+}
+
+.valores-titulo::before {
+  content: "";
+  width: 20px;
+  height: 4px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: 20px;
+}
+.valores .subtitulo {
+  color: #000;
+  max-width: 5ch; /** Aumenta o numero de carateres na quebra**/
+}
+
+.subtitulo {
+  font-size: 70px;
+  word-break: normal;
+}
+
+.valores-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  max-width: 40ch;
+  color: #34424d;
+}
+
+.valores-texto strong {
+  color: #000;
+}
+
+.valor-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.valor {
+  flex: 1;
+  padding: 0px;
+  border-radius: 4px;
+  display: flex; /** Usado para dar o valor de margin botton do .prod-tipo **/
+  flex-direction: column; /** Usado para dar o valor de margin botton do .prod-tipo, senão não pega **/
+}
+
+.valor img {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.valor-tipo {
+  line-height: 1.5;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #34424d;
+
+  padding: 20px;
+}
+
+.valor-nome {
+  flex: 1; /** O conteudo cresce o maximo que puder dentro do seu repositorio**/
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-top: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.valor-nome::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: -2px;
+}
+
+@media (max-width: 800px) {
+  .valores-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .valores .subtitulo {
+    color: #fff;
+  }
+
+  .valores-texto {
+    font-size: 1.125rem;
+  }
+  .valor img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .valores-container {
+    padding: 40px 20px;
+    grid-template-columns: 1fr;
+  }
+  .valores-titulo {
+    font-size: 2rem;
+  }
+
+  .valores-texto {
+    font-size: 1.125rem;
+  }
+  .valor img {
+    width: 85px;
+  }
+}

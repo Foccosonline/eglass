@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="53.5089mm" height="13.1119mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 250 61"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="735" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Azonix">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="s" horiz-adv-x="761"><path d="M711.997 507.001l0 4.0008c0,103.994 -84.9988,189.001 -189.001,189.001l-283.993 0c-104.003,0 -188.001,-85.0079 -188.001,-189.001l0 -4.0008c0,-39.9989 12.0024,-76.9972 32.9975,-107.003 7.0014,-11.0022 15.003,-20.9951 24.0048,-29.9969 33.9977,-32.9975 79.9978,-53.0015 130.999,-53.0015l251.996 0c53.0015,0 97.0012,-42.9995 97.0012,-96.001 0,-53.0015 -43.9997,-96.001 -97.0012,-96.001l-218.998 0c-53.0015,0 -96.001,42.9995 -96.001,96.001l-124.998 0c0,-121.997 99.0016,-220.999 220.999,-220.999l218.998 0c122.006,0 220.999,99.0016 220.999,220.999 0,53.0015 -18.9947,102.002 -50.0009,140.001 -2.99151,3.0006 -4.99191,6.0012 -7.99251,9.0018 -40.008,43.9997 -98.0014,71.9962 -163.005,71.9962l-251.996 0c-34.9979,0 -64.0037,29.0058 -64.0037,64.0037l0 4.0008c0,34.9979 29.0058,63.9946 64.0037,63.9946l283.993 0c35.007,0 64.0037,-28.9967 64.0037,-63.9946l0 -4.0008 124.998 1.0002z"/></glyph>
+   <glyph unicode="g" horiz-adv-x="799"><path d="M399.998 574.997l349.997 0 0 125.007 -349.997 0c-193.002,0 -349.997,-157.004 -349.997,-350.006 0,-192.993 156.995,-349.997 349.997,-349.997l349.997 0 0 384.004 -349.997 0 0 -125.007 225 0 0 -134 -225 0c-123.998,0 -225,101.002 -225,225 0,124.007 101.002,225 225,225z"/></glyph>
+   <glyph unicode="a" horiz-adv-x="734"><path d="M659.996 124.998l-292.995 575.006 -293.004 -575.006 -63.9946 -124.998 140.001 0 63.9946 124.998 153.003 300.005 153.003 -300.005 63.9946 -124.998 140.001 0 -64.0037 124.998z"/></glyph>
+   <glyph unicode="l" horiz-adv-x="676"><path d="M259.997 125.998c-43.9997,6.0012 -78.9976,40.9991 -84.9988,84.9988l0 489.007 -124.998 0 0 -477.004c0,-34.9979 8.0016,-67.9954 22.9955,-98.0014 21.0042,-43.9997 57.0023,-79.9978 101.002,-102.002 30.006,-14.9939 63.0035,-22.9955 98.0014,-22.9955l354.998 0 0 124.998 -367.001 1.0002z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Azonix";src:url("#FontID0") format(svg)}
+    .fil0 {fill:#FEFEFE}
+    .fil1 {fill:#FEFEFE}
+    .fnt0 {font-weight:normal;font-size:51.4094px;font-family:'Azonix'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_379755392">
+   <polygon class="fil0" points="0,46 0,15 26,0 37,5 12,21 12,33 47,12 53,15 53,21 5,49 "/>
+   <polygon class="fil0" points="26,61 17,55 53,33 53,46 "/>
+  </g>
+  <text x="64" y="58"  class="fil1 fnt0">glass</text>
+ </g>
+</svg>
