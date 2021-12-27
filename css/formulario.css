@@ -1,0 +1,21 @@
+.formulario-btn {
+  display: flex;
+  justify-content: center;
+}
+.formulario-btn {
+  color: #fff;
+  padding: 15px 30px;
+  background: #34424d;
+  border: solid 1px #fff;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 0.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.formulario-btn:hover {
+  color: #67dd0a;
+  border: solid 1px #67dd0a;
+}

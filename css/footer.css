@@ -1,4 +1,4 @@
-.container {
+.container-footer {
   box-sizing: border-box;
   max-width: 1200px;
   padding-left: 20px;
@@ -8,11 +8,23 @@
   position: relative;
 }
 
-.container::after {
+.container-desenvolvedor {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #111;
+  color: #8f8f8f;
+}
+
+.footer-desenvolvedor {
+  text-align: center;
+}
+
+.container-footer::after {
   /** Utilizado para colocar o detalhe da imagem do lado esquerdo no footer**/
   display: block;
   content: "";
-  width: 130px;
+  width: 90px;
   height: 100px;
   background: url("../img/detalhe.svg") no-repeat center;
   position: absolute;
@@ -75,6 +87,7 @@
 .footer-copy {
   grid-column: 1/-1;
   margin-top: 40px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 800px) {

@@ -22,6 +22,11 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .subtitulo {
   font-size: 8rem;
   line-height: 1;

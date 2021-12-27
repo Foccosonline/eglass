@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 1fr;
   position: relative;
   background: #d9e0e6;
+  margin-bottom: 80px;
 }
 
 .intro {
@@ -17,6 +18,10 @@
   align-content: center;
   gap: 20px;
   justify-items: start;
+}
+
+.intro p {
+  line-height: 1.5;
 }
 
 .intro-titulo::before {

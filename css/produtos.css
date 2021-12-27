@@ -61,6 +61,16 @@
   gap: 20px;
   margin-bottom: 60px;
 }
+
+.prod-lista a {
+  color: #fff;
+}
+
+.prod-lista a:hover {
+  color: #b6f829;
+  text-transform: uppercase;
+}
+
 .prod {
   flex: 1;
   background: #000;
@@ -98,6 +108,10 @@
   background: linear-gradient(#b6f829, #67dd0a);
   position: absolute;
   left: -2px;
+}
+
+.prod-lista a:hover h3::before {
+  height: 30px;
 }
 
 .produto-extra h3 {

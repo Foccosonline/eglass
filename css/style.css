@@ -1,4 +1,6 @@
 @import "./global.css";
+@import "./cores.css";
+@import "./tipografia.css";
 @import "./header.css";
 @import "./slide.css";
 @import "./intro.css";
@@ -6,4 +8,7 @@
 @import "./galeria.css";
 @import "./produtos.css";
 @import "./conteudo.css";
+@import "./contato.css";
+@import "./lojas.css";
+@import "./formulario.css";
 @import "./footer.css";
