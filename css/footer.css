@@ -20,18 +20,6 @@
   text-align: center;
 }
 
-.container-footer::after {
-  /** Utilizado para colocar o detalhe da imagem do lado esquerdo no footer**/
-  display: block;
-  content: "";
-  width: 90px;
-  height: 100px;
-  background: url("../img/detalhe.svg") no-repeat center;
-  position: absolute;
-  bottom: -50px;
-  left: 20px;
-}
-
 .footer-bg {
   background: #000;
   color: #fff;
@@ -45,6 +33,9 @@
   padding-bottom: 60px;
 }
 
+.footer > img {
+  max-width: 200px;
+}
 .footer-subtitulo {
   padding-top: 15px;
   font-family: "fira sans";
@@ -91,11 +82,12 @@
 }
 
 @media (max-width: 800px) {
-  .footer > img {
-    display: none;
-  }
   .footer {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .footer > img {
+    display: none;
   }
 }
 
@@ -104,6 +96,7 @@
     grid-template-columns: 1fr;
     gap: 60px;
   }
+
   .footer-copy {
     margin-top: 0px;
   }

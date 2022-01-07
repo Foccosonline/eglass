@@ -1,3 +1,7 @@
+.header-bg {
+  max-width: 100%;
+}
+
 .header {
   max-width: 1200px;
   padding: 10px 20px; /** aumenta o tamanho do header **/
@@ -41,9 +45,10 @@
     flex-direction: column; /** muda a orientação do flex para coluna, alterando o menu **/
     gap: 40px;
     padding: 20px;
+    background-color: black;
   }
 
-  .header a {
+  .header-menu a {
     background-color: #34424d;
     border-radius: 4px;
   }

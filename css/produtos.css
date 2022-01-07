@@ -166,6 +166,7 @@
   }
 
   .produto-texto {
+    margin-bottom: 20px;
     font-size: 1.125rem;
   }
 
@@ -178,6 +179,10 @@
 @media (max-width: 600px) {
   .prod-lista {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .produto-texto {
+    margin-bottom: 10px;
   }
 }
 
@@ -199,6 +204,7 @@
     font-size: 2rem;
   }
   .produto-texto {
+    margin-bottom: 10px;
     font-size: 1.125rem;
   }
 

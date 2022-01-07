@@ -154,6 +154,7 @@
   }
 
   .portfolio-texto {
+    margin-bottom: 20px;
     font-size: 1.125rem;
   }
 
@@ -192,6 +193,7 @@
     font-size: 2rem;
   }
   .portfolio-texto {
+    margin-bottom: 10px;
     font-size: 1.125rem;
   }
 
