@@ -7,3 +7,9 @@
 .slide-galeria img {
   width: 100%;
 }
+
+@media (max-width: 600px) {
+  .slide-galeria img {
+    margin-top: 80px;
+  }
+}
