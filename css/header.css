@@ -53,3 +53,10 @@
     border-radius: 4px;
   }
 }
+
+@media (max-width: 600px) {
+  .header a > img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
