@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 600px) {
-  .slide-galeria img {
+  .slide-galeria {
     margin-top: 80px;
   }
 }
